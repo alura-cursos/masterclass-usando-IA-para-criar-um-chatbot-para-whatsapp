@@ -17,12 +17,12 @@ def iam_alive():
     Retorna uma string indicando que o serviço está vivo.
     
     Exemplo de uso:
-      GET /  ->  "Estou vivo!!"
+      GET /  ->  "Olá Mundo"
 
     Este endpoint pode ser usado pelo Heroku ou qualquer outro serviço de monitoramento
     para checar rapidamente se a aplicação FastAPI está rodando.
     """
-    return "Estou vivo!!"
+    return "Olá Mundo!"
 
 @app.get("/webhook/")
 def subscribe(request: Request):
