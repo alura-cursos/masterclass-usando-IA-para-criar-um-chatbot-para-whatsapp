@@ -1,6 +1,6 @@
 <img width="991" alt="image" src="https://github.com/user-attachments/assets/d7bf3e82-0971-4a6d-9e5b-14d4cf7be010" />
 
-# 4592 - MasterClass: Usando IA para criar um chatbot para WhatsApp
+# 4502 - MasterClass: Usando IA para criar um chatbot para WhatsApp
 
 ![]()
 
