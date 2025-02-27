@@ -2,15 +2,15 @@
 
 # 4502 - MasterClass: Usando IA para criar um chatbot para WhatsApp
 
-![image](https://github.com/user-attachments/assets/ac37516a-a0ae-41e0-9394-201c56691e38)
+![Diagrama de fluxo de um chatbot integrado ao WhatsApp, envolvendo a API do WhatsApp Business, a API da OpenAI e o Heroku. O usuário envia uma mensagem para a API do WhatsApp Business, que a encaminha para um Webhook hospedado no Heroku. O Webhook envia a mensagem para um Wrapper da API da OpenAI, que obtém uma resposta da OpenAI. A resposta é enviada de volta ao Webhook no Heroku, que a repassa para a API do WhatsApp Business, finalizando com o envio da resposta ao usuário no WhatsApp. O Heroku facilita o gerenciamento do Webhook, garantindo um fluxo eficiente de mensagens.](https://github.com/user-attachments/assets/ac37516a-a0ae-41e0-9394-201c56691e38)
 
 Essa imagem ilustra a arquitetura básica, em que:
-1. Usuário envia mensagem pelo WhatsApp.
-2. A mensagem é encaminhada então, para Cloud API do WhatsApp.
-3. A Cloud API do WhatsApp faz uma requisição ao nosso webhook (FastAPI).  
-4. FastAPI (no Heroku) processa a mensagem, chamando a OpenAI para gerar a resposta.
-5. A resposta é devolvida para o WebHook, e então encaminhada para Cloud API do WhatsApp.
-6. O bot responde ao usuário novamente no WhatsApp.  
+1. O usuário envia uma mensagem no WhatsApp, que é capturada pela API do WhatsApp Business.
+2. A mensagem é encaminhada para um Webhook hospedado no Heroku.
+3. O Webhook faz uma requisição à API da OpenAI via um Wrapper.
+4. A OpenAI gera uma resposta, que retorna para o Webhook.
+5. O Webhook envia a resposta de volta para a API do WhatsApp Business.
+6. O WhatsApp entrega a resposta ao usuário. 
 
 ---
 
