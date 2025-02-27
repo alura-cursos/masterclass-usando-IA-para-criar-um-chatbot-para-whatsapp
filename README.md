@@ -1,14 +1,16 @@
-<img width="991" alt="image" src="https://github.com/user-attachments/assets/d7bf3e82-0971-4a6d-9e5b-14d4cf7be010" />
+![image](https://github.com/user-attachments/assets/b9b98187-1236-4a87-883c-cd629719b3ec)
 
 # 4502 - MasterClass: Usando IA para criar um chatbot para WhatsApp
 
-![]()
+![image](https://github.com/user-attachments/assets/ac37516a-a0ae-41e0-9394-201c56691e38)
 
 Essa imagem ilustra a arquitetura básica, em que:
-1. Usuário envia mensagem pelo WhatsApp.  
-2. A Cloud API do WhatsApp faz uma requisição ao nosso webhook (FastAPI).  
-3. FastAPI (no Heroku) processa a mensagem, chamando a OpenAI para gerar a resposta.  
-4. O bot responde ao usuário novamente no WhatsApp.  
+1. Usuário envia mensagem pelo WhatsApp.
+2. A mensagem é encaminhada então, para Cloud API do WhatsApp.
+3. A Cloud API do WhatsApp faz uma requisição ao nosso webhook (FastAPI).  
+4. FastAPI (no Heroku) processa a mensagem, chamando a OpenAI para gerar a resposta.
+5. A resposta é devolvida para o WebHook, e então encaminhada para Cloud API do WhatsApp.
+6. O bot responde ao usuário novamente no WhatsApp.  
 
 ---
 
