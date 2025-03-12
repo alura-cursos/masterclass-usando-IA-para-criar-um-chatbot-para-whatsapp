@@ -56,7 +56,7 @@ Este projeto consiste na construção de um **chatbot de IA generativa** para re
 #### **Windows**:
 ```bash
 python -m venv venv-chatbot-wpp
-source venv-chatbot-wpp/Scripts/activate
+venv-chatbot-wpp\Scripts\activate
 ```
 
 #### **Mac/Linux**:
