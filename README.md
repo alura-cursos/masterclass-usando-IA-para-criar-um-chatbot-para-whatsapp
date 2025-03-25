@@ -1,8 +1,8 @@
 ![image](https://github.com/user-attachments/assets/b9b98187-1236-4a87-883c-cd629719b3ec)
 
-![Diagrama de fluxo de um chatbot integrado ao WhatsApp, envolvendo a API do WhatsApp Business, a API da OpenAI e o Heroku. O usuário envia uma mensagem para a API do WhatsApp Business, que a encaminha para um Webhook hospedado no Heroku. O Webhook envia a mensagem para um Wrapper da API da OpenAI, que obtém uma resposta da OpenAI. A resposta é enviada de volta ao Webhook no Heroku, que a repassa para a API do WhatsApp Business, finalizando com o envio da resposta ao usuário no WhatsApp. O Heroku facilita o gerenciamento do Webhook, garantindo um fluxo eficiente de mensagens.](https://github.com/user-attachments/assets/ac37516a-a0ae-41e0-9394-201c56691e38)
-
 ## Arquitetura da Solução
+
+![Diagrama de fluxo de um chatbot integrado ao WhatsApp, envolvendo a API do WhatsApp Business, a API da OpenAI e o Heroku. O usuário envia uma mensagem para a API do WhatsApp Business, que a encaminha para um Webhook hospedado no Heroku. O Webhook envia a mensagem para um Wrapper da API da OpenAI, que obtém uma resposta da OpenAI. A resposta é enviada de volta ao Webhook no Heroku, que a repassa para a API do WhatsApp Business, finalizando com o envio da resposta ao usuário no WhatsApp. O Heroku facilita o gerenciamento do Webhook, garantindo um fluxo eficiente de mensagens.](https://github.com/user-attachments/assets/ac37516a-a0ae-41e0-9394-201c56691e38)
 
 Essa imagem ilustra a arquitetura básica, em que:
 1. O usuário envia uma mensagem no WhatsApp, que é capturada pela API do WhatsApp Business.
